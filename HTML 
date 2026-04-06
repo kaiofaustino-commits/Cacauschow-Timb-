@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cacau Show Timbó</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f8f5f2;
+      color: #333;
+    }
+
+    header {
+      background: #4b2e2b;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #6b3e3a;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #4b2e2b;
+    }
+
+    footer {
+      background: #4b2e2b;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #8b5e3c;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background: #6b3e3a;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Cacau Show - Timbó</h1>
+  <p>Chocolates e presentes especiais</p>
+</header>
+
+<nav>
+  <a href="#sobre">Sobre</a>
+  <a href="#contato">Contato</a>
+  <a href="#horarios">Horários</a>
+  <a href="#localizacao">Localização</a>
+</nav>
+
+<div class="container">
+
+  <div class="card" id="sobre">
+    <h2>Sobre a loja</h2>
+    <p>
+      A Cacau Show é uma das maiores redes de chocolates finos do Brasil, 
+      oferecendo produtos de alta qualidade, ideais para presentes ou consumo próprio.
+    </p>
+  </div>
+
+  <div class="card" id="contato">
+    <h2>Contato</h2>
+    <p><strong>Telefone:</strong> (47) 3399-2200</p>
+    <p><strong>Endereço:</strong> Av. Getúlio Vargas, 405 - Centro, Timbó - SC</p>
+  </div>
+
+  <div class="card" id="horarios">
+    <h2>Horário de Funcionamento</h2>
+    <ul>
+      <li>Segunda: 08:30 - 18:30</li>
+      <li>Terça: 08:30 - 18:30</li>
+      <li>Quarta: 08:30 - 18:30</li>
+      <li>Quinta: 08:30 - 18:30</li>
+      <li>Sexta: 08:30 - 18:30</li>
+      <li>Sábado: 08:00 - 12:00</li>
+      <li>Domingo: Fechado</li>
+    </ul>
+  </div>
+
+  <div class="card" id="localizacao">
+    <h2>Localização</h2>
+    <iframe 
+      src="https://www.google.com/maps?q=Av.+Get%C3%BAlio+Vargas,+405+Timb%C3%B3+SC&output=embed"
+      width="100%" 
+      height="300" 
+      style="border:0; border-radius:10px;">
+    </iframe>
+  </div>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 Cacau Show Timbó - Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
